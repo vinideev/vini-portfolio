@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/dragao.png" type="image/x-icon">
+
+    
+
+    <title>Portfolio Website | Vini.</title>
+</head>
+<body>
+
+         <div class="container">
+        <!-- --------------- HEADER --------------- -->
+          <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Vini</p>
+                <span>.</span>
+            </div>
+
+           
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" id="downloadButton">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+
+           
+           <!-- -------------- FEATURED BOX ---------------- -->
+           <section class="featured-box" id="home">
+              <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Vinicius Motta</span>
+                </div>
+                <div class="featured-name">
+                    <p>Olá! Eu sou <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Criando experiências intuitivas através do desenvolvimento de softwares.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" id="contact-button">Contate-me</button>
+                   
+                </div>
+                <div class="social_icons">
+                    <div class="icon"><a href="https://instagram.com/slowniv" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a></div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/vini-deev/" target="_blank">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a></i></div>
+                    <div class="icon"><a href="https://github.com/vinideev" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a></i></div>
+                </div>
+
+              </div>
+              <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/icon.jpg" alt="avatar">
+                </div>
+              </div>
+              <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll</p>
+                </a>
+              </div>
+           </section>
+           <!-- -------------- ABOUT BOX ---------------- -->
+           <section class="section" id="about">
+              <div class="top-header">
+                <h1>Sobre mim</h1>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>Introdução</h3>
+                        <p>Utilizo da tecnologia para criar sites reponsivos utilizando frameworks e bibliotecas para melhor experiência do usuário. Gosto principalmente de trabalhar com Javascript e React, porém não me importo de trabalhar com outras ferramentas e fazer desafios também em back-end e banco de dados. Atualmente estou cursando Análise e desenvolvimento de sistemas e tentando me realocar profissionalmente.
+                        </p>
+                      
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Figma</span>
+
+                           
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>   
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </section>
+           <!-- -------------- PROJECT BOX ---------------- -->
+           <section class="section" id="projects">
+              <div class="top-header">
+                  <h1>Projects</h1>
+              </div>
+              <div class="project-container">
+                <div class="project-box">
+                    <div class="card-project">Loading...</div>
+                </div>
+                <div>
+                    
+                </div>
+                <div class="project-box">
+                    <div class="card-project">Loading...</div>
+                    
+                </div>
+                
+                <div class="project-box">
+                    <div class="card-project">Loading...</div>
+                </div>
+              </div>
+           </section>
+           <!-- -------------- CONTACT BOX ---------------- -->
+           <section class="section" id="contact">
+              <div class="top-header">
+                <h1>Entre em contato</h1>
+                <span>Se você tem algum projeto em mente, uma oportunidade para minhas habilidades ou fazer troca de conhecimentos me mande uma mensagem!</span>
+              </div>
+              <div class="row">
+                 <div class="col">
+                    <div class="contact-info">
+                        <h2>Me encontre aqui<i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: bviniciuscm@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> Tel: (24) 98100 -5147</p>
+                    </div>
+                 </div>
+                 <div class="col-2">
+                    <div class="form-control" id="contact-form">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Name" name="user_name">
+                            <input type="text" class="input-field" placeholder="Email" name="user_email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message" name="message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+           </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Vini .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="card-icon">
+                    <a href="https://www.instagram.com/slowniv/" class="socialContainer containerOne">
+                      <svg class="socialSvg instagramSvg" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+                    </a>
+                    
+                   
+                      
+                    <a href="https://www.linkedin.com/in/vini-deev/" class="socialContainer containerThree">
+                      <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a>
+                    
+                 
+                  </div>             
+                  
+                  
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Vinicius Motta</a> - All rights reserved</p>
+            </div>
+        </footer>
+        </div>
+        <!-- ----- TYPING JS Link ----- -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+           <!-- ----- SCROLL REVEAL JS Link----- -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- ----- MAIN JS ----- -->
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+   	<!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+
+
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "XdUxB-T9AYctx9r8I",
+            });
+        })();
+    </script>
+</body>
+</html>
